@@ -1,0 +1,11 @@
+prefix=/Users/mayinglun/Downloads/fdk-aac-build-script-for-iOS-master/thin/x86_64
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Fraunhofer FDK AAC Codec Library
+Description: AAC codec library
+Version: 2.0.1
+Libs: -L${libdir} -lfdk-aac 
+Libs.private: 
+Cflags: -I${includedir}
